@@ -1,7 +1,6 @@
-turbosms-bundle-symfony2
+SunraTurbosmsBundle
 ========================
 
-Turbosms integration Symfony2 bundle
+Turbosms support for Symfony 2
 
-
-require: https://github.com/sunra/turbosms-soapgate-client-php
+Uses https://github.com/sunra/turbosms-soapgate-client-php
