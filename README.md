@@ -17,6 +17,7 @@ after install:
 
 Add the TurbosmsBundle to your application's kernel:
 
+``` php
 <?php
 public function registerBundles()
 {
@@ -27,5 +28,5 @@ public function registerBundles()
     );
     ...
 }
-
+```
 
