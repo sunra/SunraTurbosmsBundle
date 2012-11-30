@@ -1,0 +1,22 @@
+{
+    "name": "sunra/turbosms-bundle",
+    "type": "symfony-bundle",
+    "description": "A Turbosms bundle for Symfony2",
+    "keywords": ["sms", "turbosms", "symfony"],
+    "homepage": "https://github.com/sunra/SunraTurbosmsBundle",
+    "license": "MIT",
+    "authors": [{
+        "name": "sunra",
+        "email": "sunra@yandex.ru"
+    }],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/framework-bundle": ">=2.1.0,<2.3-dev",
+        "symfony/yaml": ">=2.1.0,<2.3-dev",
+        "sunra/turbosms-soapgate-client-php": "dev-master"
+    },    
+    "autoload": {
+        "psr-0": { "Sunra\\TurbosmsBundle": "" }
+    },
+    "target-dir": "Sunra/TurbosmsBundle",   
+}
