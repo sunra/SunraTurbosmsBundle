@@ -12,10 +12,8 @@ Intallation:
 via Composer:
 
 
-after install:
 
-
-Add the TurbosmsBundle to your application's kernel:
+Add to your application's kernel:
 
 ``` php
 <?php
@@ -29,4 +27,20 @@ public function registerBundles()
     ...
 }
 ```
+
+
+
+Configuration:
+
+add to /app/config/config.yml
+
+``` yml 
+sunra_turbosms:    
+    charset: "%app_charset%"
+    soap_client:
+        login:    123456
+        password: 123456
+        sender:   123456
+```      
+
 

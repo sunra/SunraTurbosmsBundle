@@ -24,6 +24,26 @@ class Configuration implements ConfigurationInterface
         // configure your bundle. See the documentation linked above for
         // more information on that topic.
 
+        $rootNode
+		    ->children()
+               ->scalarNode('charset')
+			       ->Default('utf-8')
+			       ->end()
+			   ->arrayNode('soap_client')
+			       ->children()
+				       ->scalarNode('login')
+					       ->IsRequired()
+					       ->end()
+					   ->scalarNode('password')
+					       ->IsRequired()
+					       ->end()
+					   ->scalarNode('sender')
+					       ->IsRequired()
+					       ->end()
+				   ->end()
+            ->end()
+        ;
+
         return $treeBuilder;
     }
 }
