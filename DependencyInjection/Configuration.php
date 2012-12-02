@@ -27,7 +27,7 @@ class Configuration implements ConfigurationInterface
         $rootNode
 		    ->children()
                ->scalarNode('charset')
-			       ->Default('utf-8')
+			       ->DefaultValue('utf-8')
 			       ->end()
 			   ->arrayNode('soap_client')
 			       ->children()
