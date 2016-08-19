@@ -12,8 +12,8 @@
     }],
     "require": {
         "php": ">=5.5.9",
-        "symfony/framework-bundle": "~2.8",
-        "symfony/yaml": "~2.8",
+        "symfony/framework-bundle": "~2.8|~3.0",
+        "symfony/yaml": "~2.8|~3.0",
         "sunra/turbosms-soapgate-client-php": "0.4.x-dev"
     },    
     "autoload": {
