@@ -14,7 +14,7 @@
         "php": ">=5.3.9",
         "symfony/framework-bundle": "~2.8|~3.0",
         "symfony/yaml": "~2.8|~3.0",
-        "sunra/turbosms-soapgate-client-php": "0.4.x-dev"
+        "sunra/turbosms-soapgate-client-php": "0.4.0"
     },    
     "autoload": {
         "psr-0": { "Sunra\\TurbosmsBundle": "" }
